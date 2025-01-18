@@ -51,7 +51,8 @@ botones.forEach((boton) => {
 
 function calcularResultado() {
     const actual = parseFloat(operacionActual) || 0;
-    switch (operacionActual) {
+
+    switch (operadorAnterior) {
         case '+':
             resultado += actual;
             break;

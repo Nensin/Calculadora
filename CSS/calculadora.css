@@ -5,7 +5,7 @@
 }
 
 .calculadora-contenedor{
-    background-color: rgb(108, 108, 225);
+    background-color: rgb(175, 175, 185);
     width: fit-content;
     height: 90%;
     margin-left: 5%;
@@ -44,4 +44,7 @@ button{
     white-space: nowrap;
     text-align: right;
     width: 100%;
+}
+#AC, #porciento, #X, #signo, #division, #resta, #suma,#punto,#igual {
+    background-color: rgb(5, 5, 238);
 }
